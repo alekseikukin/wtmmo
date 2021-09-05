@@ -1,5 +1,5 @@
 function [S, tetta2] = SMatrixOfStructure(tetta0, lambda, varargin)
-% return S matrix of structure
+%SMatrixOfStructure return S matrix of structure
 % tetta0 - angle of incident
 % lambda - wavelength
 % varargin: couples of refractive indexes and thiknesses of films

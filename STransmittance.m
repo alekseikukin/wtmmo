@@ -1,5 +1,5 @@
 function S = STransmittance(N, d, lambda, tetta)
-%STransmittance return S matrix of simple film
+%STransmittance return S matrix of transmittance of simple film
 %N - complex rafractive index
 %d  - thickness
 %lambda - wavelength

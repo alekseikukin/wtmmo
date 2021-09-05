@@ -1,5 +1,10 @@
 function [S, tetta2]  = SReflectance(N1, N2, tetta1)
-% return S matrix of border between 2 mediums
+%SReflectance return S matrix of border between 2 mediums
+% N1 - complex refractive index of first medium
+% N2- complex refractive index of second medium
+% tetta1 - angle of incident
+% S - s-matrix
+% tetta2 - angle of refraction
 Tetta1 = @(n0, n1, tetta0)...
     asin(real(n0) ./ real(n1) * sin(tetta0)); % Snell's law
 
