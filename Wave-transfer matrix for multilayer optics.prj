@@ -7,7 +7,7 @@
     <param.summary>Wave-transfer matrix and scattering matrix toolbox.</param.summary>
     <param.description>Wave-transfer matrix and scattering matrix toolbox. Can be used for simple calculation of  wave-transfer matrix or scattering matrix of multilayer optical system. Scattering matrix can be converted to transmittance and reflectance very simply.</param.description>
     <param.screenshot>${PROJECT_ROOT}\mirror.jpg</param.screenshot>
-    <param.version>1.0001</param.version>
+    <param.version>1.002</param.version>
     <param.output>${PROJECT_ROOT}\Wave-transfer matrix for multilayer optics.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -79,7 +79,10 @@
       <file>${PROJECT_ROOT}</file>
     </fileset.rootdir>
     <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\.git</file>
+      <file>${PROJECT_ROOT}\.gitignore</file>
       <file>${PROJECT_ROOT}\example.m</file>
+      <file>${PROJECT_ROOT}\LICENSE</file>
       <file>${PROJECT_ROOT}\mirror.jpg</file>
       <file>${PROJECT_ROOT}\MMatrixOfStructure.m</file>
       <file>${PROJECT_ROOT}\MReflectance.m</file>
@@ -87,7 +90,8 @@
       <file>${PROJECT_ROOT}\nk_Ag.txt</file>
       <file>${PROJECT_ROOT}\nk_Au.txt</file>
       <file>${PROJECT_ROOT}\nk_Si3N4.txt</file>
-      <file>${PROJECT_ROOT}\nk_SiO2..txt</file>
+      <file>${PROJECT_ROOT}\nk_SiO2.txt</file>
+      <file>${PROJECT_ROOT}\README.md</file>
       <file>${PROJECT_ROOT}\S2Reflectance.m</file>
       <file>${PROJECT_ROOT}\S2Transmittance.m</file>
       <file>${PROJECT_ROOT}\SMatrixOfStructure.m</file>
@@ -103,7 +107,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2021a</root>
+      <root>F:\Program Files\MATLAB\R2021a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
