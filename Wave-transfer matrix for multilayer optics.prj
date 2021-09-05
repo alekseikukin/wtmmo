@@ -1,0 +1,162 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="2998512847" file="G:\My Drive\matlab_prog\wave transfer matrix for multilayer optics\Wave-transfer matrix for multilayer optics.prj" location="G:\My Drive\matlab_prog\wave transfer matrix for multilayer optics" name="Wave-transfer matrix for multilayer optics" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Wave-transfer matrix for multilayer optics</param.appname>
+    <param.authnamewatermark>Aleksei Kukin</param.authnamewatermark>
+    <param.email>aleksey.kukin@mail.huji.ac.il</param.email>
+    <param.company>HUJI</param.company>
+    <param.summary>Wave-transfer matrix and scattering matrix toolbox.</param.summary>
+    <param.description>Wave-transfer matrix and scattering matrix toolbox. Can be used for simple calculation of  wave-transfer matrix or scattering matrix of multilayer optical system. Scattering matrix can be converted to transmittance and reflectance very simply.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\mirror.jpg</param.screenshot>
+    <param.version>1.0001</param.version>
+    <param.output>${PROJECT_ROOT}\Wave-transfer matrix for multilayer optics.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>864cb3fb-59c0-4066-a09b-37c2428c879c</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\example.m</file>
+      <file>${PROJECT_ROOT}\mirror.jpg</file>
+      <file>${PROJECT_ROOT}\MMatrixOfStructure.m</file>
+      <file>${PROJECT_ROOT}\MReflectance.m</file>
+      <file>${PROJECT_ROOT}\MTransmittance.m</file>
+      <file>${PROJECT_ROOT}\nk_Ag.txt</file>
+      <file>${PROJECT_ROOT}\nk_Au.txt</file>
+      <file>${PROJECT_ROOT}\nk_Si3N4.txt</file>
+      <file>${PROJECT_ROOT}\nk_SiO2..txt</file>
+      <file>${PROJECT_ROOT}\S2Reflectance.m</file>
+      <file>${PROJECT_ROOT}\S2Transmittance.m</file>
+      <file>${PROJECT_ROOT}\SMatrixOfStructure.m</file>
+      <file>${PROJECT_ROOT}\SMMatrixConverter.m</file>
+      <file>${PROJECT_ROOT}\SReflectance.m</file>
+      <file>${PROJECT_ROOT}\STransmittance.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Wave-transfer matrix for multilayer optics.mltbx" optional="false">G:\My Drive\matlab_prog\wave transfer matrix for multilayer optics\Wave-transfer matrix for multilayer optics.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
