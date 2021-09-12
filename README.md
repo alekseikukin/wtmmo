@@ -4,7 +4,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/alekseikukin/wtmmo">
-    <img src="images/logo.png" alt="Logo" width="120" height="120">
+    <img src="images/logo.png" alt="Logo" width="100" height="117">
   </a>
   <h1 align="center">Wave-transfer matrix for multilayer optics</h1>
     <p align="center">
