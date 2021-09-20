@@ -1,5 +1,5 @@
 [![View Wave-transfer matrix for multilayer optics on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/92463-wave-transfer-matrix-for-multilayer-optics) 
-<a href='https://ko-fi.com/V7V664FUA' target='_blank'><img height='36' style='border:0px;height:20px;' src='https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4cf61eceb26012821_SupportMe_red-p-500.png' border='0' alt='Support Me on Ko-fi' /></a>
+<a href='https://ko-fi.com/V7V664FUA' target='_blank'><img height='20' style='border:0px;height:20px;' src='https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4cf61eceb26012821_SupportMe_red-p-500.png' border='0' alt='Support Me on Ko-fi' /></a>
 
 <br />
 <p align="center">
